@@ -1,0 +1,56 @@
+.merchandise-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+    width: 177%;
+  }
+  
+  .title {
+    font-family: "Arial", sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .merchandise-grid {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+  }
+  
+  .merch-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .merch-item img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .merch-item h2 {
+    font-family: "Arial", sans-serif;
+    font-size: 18px;
+  }
+  
+  .merch-item p {
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .buy-now {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .sold-out {
+    color: red;
+    font-weight: bold;
+  }
+  

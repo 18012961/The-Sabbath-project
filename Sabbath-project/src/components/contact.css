@@ -1,0 +1,295 @@
+/* Ensure full width and height */
+.contact-container-gb {
+    height: 45.3vw;
+    width: 98.9vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 60px 5%;
+    background-color: white;
+    color: rgb(226, 171, 61);
+    box-sizing: border-box;
+    position: relative;
+}
+
+/* Contact info wrapper */
+.contact-info-gb {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px; /* Adds spacing between elements */
+}
+
+/* Title styling */
+.contact-title-gb {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(180, 120, 20);
+    margin-bottom: 10px;
+}
+
+/* Subtitle text */
+.contact-subtext-gb {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: rgb(150, 100, 30);
+    margin-bottom: 10px;
+}
+
+/* Email styling */
+.contact-email-gb {
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(100, 80, 40);
+    margin-bottom: 5px;
+}
+
+.contact-email-gb a {
+    color: rgb(200, 100, 50);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-email-gb a:hover {
+    text-decoration: underline;
+}
+
+/* Phone number styling */
+.contact-phone-gb {
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(120, 90, 30);
+    margin-bottom: 5px;
+}
+
+
+/* Contact Info Section */
+.contact-info-gb {
+    max-width: 40%;
+  }
+  
+  .contact-title-gb {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .contact-subtext-gb {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-email-gb, .contact-phone-gb {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .contact-email-gb a {
+    color: rgb(226, 171, 61);
+    text-decoration: none;
+  }
+  
+  /* Contact form */
+  .contact-form-gb {
+    max-width: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Row layout for inputs */
+  .contact-row-gb {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .contact-input-gb {
+    width: 48%;
+    padding: 10px;
+    border: 1px solid 	#4A3728;
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+  }
+  
+  /* Message input */
+  .contact-message-gb {
+    width: 97%;
+    height: 120px;
+    padding: 10px;
+    border: 1px solid 	#4A3728;
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+
+/* Submit Button */
+.contact-button-gb {
+    width: 40%;
+    padding: 12px 40px;
+    border: 1px solid 	#4A3728;
+    background-color: transparent;
+    color: #222217;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-left: 0;
+    display: block;
+}
+
+.contact-button-gb:hover {
+    background-color: #222217;
+    color: #222217;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .contact-container-gb {
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 5%;
+    }
+
+    .contact-info-gb {
+        max-width: 100%;
+        padding-right: 0;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .contact-form-gb {
+        max-width: 100%;
+    }
+
+    .contact-button-gb {
+        width: 100%;
+        padding: 12px;
+    }
+}
+
+/* ✅ Responsive Design for Phones (iPhone, Samsung, iPad Mini) */
+@media (max-width: 768px) {
+    .contact-container-gb {
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 5%;
+        min-height: 100vh; /* Ensure it always covers full height */
+    }
+
+    .contact-info-gb {
+        text-align: center;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .contact-form-gb {
+        max-width: 100%;
+    }
+
+    .contact-button-gb {
+        width: 100%;
+        padding: 12px;
+    }
+
+    /* Fixes potential cropping issues on small screens */
+    .contact-container-gb::before {
+        background-size: cover;
+    }
+}
+
+/* ✅ Extra Small Phones (iPhone SE, Older Phones) */
+
+@media (max-width: 480px) {
+    /* Mobile Enhancements */
+    .contact-container-gb {
+        padding: 1.5rem;
+    }
+
+    .contact-title-gb {
+        font-size: 1.75rem;
+    }
+
+    .contact-subtext-gb {
+        font-size: 0.85rem;
+    }
+
+    .contact-input-gb,
+    .contact-message-gb {
+        padding: 0.7rem;
+        font-size: 0.95rem;
+    }
+
+    .contact-button-gb {
+        padding: 0.9rem;
+        font-size: 0.95rem;
+    }
+}
+
+/* Accessibility Improvements */
+.contact-email-gb a:focus {
+    outline: 2px solid white;
+    outline-offset: 2px;
+}
+
+.contact-button-gb:hover,
+.contact-button-gb:focus {
+    background-color: white;
+    color: black;
+}
+
+/* Add these to your existing CSS */
+.input-wrapper-gb {
+    width: 48%;
+    position: relative;
+  }
+  
+  .input-wrapper-gb:last-child {
+    width: 100%;
+  }
+  
+  .error-message-gb {
+    color: #ff4444;
+    font-size: 0.8rem;
+    position: absolute;
+    bottom: -18px;
+    left: 0;
+  }
+  
+  .submit-error-gb {
+    position: static;
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  .input-error-gb {
+    border-color: #ff4444 !important;
+  }
+  
+  .success-popup-gb {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    animation: fadeInOut 3s ease-in-out;
+  }
+  
+  @keyframes fadeInOut {
+    0% { opacity: 0; transform: translateY(-20px); }
+    10% { opacity: 1; transform: translateY(0); }
+    90% { opacity: 1; transform: translateY(0); }
+    100% { opacity: 0; transform: translateY(-20px); }
+  }
+  
+  .contact-button-gb:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+  }

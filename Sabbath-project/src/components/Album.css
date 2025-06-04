@@ -1,0 +1,49 @@
+/* MusicReleases.css */
+
+.music-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .music-title {
+    font-family: serif;
+    font-weight: normal;
+  }
+  
+  .album-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px 0;
+  }
+  
+  .album-card {
+    text-align: center;
+  }
+  
+  .album-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .album-text {
+    font-weight: bold;
+  }
+  
+  .more-releases-button {
+
+    font-size: 16px;
+    border: 1px solid rgb(13, 32, 106);
+    background-color: #9ec1e6;
+    text-align: center;
+    padding: 10px;
+    margin-left: 87rem;
+  }
+  
+  .more-releases-button:hover {
+    background-color: #9ec1e6;
+  }
+  

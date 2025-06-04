@@ -1,0 +1,84 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 96%;
+}
+
+/* NAVIGATION LINKS */
+.navbar-left {
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar-left a {
+  text-decoration: none;
+  color: inherit; /* Inherit color from parent */
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-left a:hover {
+  color: #000000; /* Sky blue hover */
+}
+
+/* SOCIAL ICONS */
+.navbar-social {
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar-social a {
+  color: rgb(226, 171, 61);
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-social a:hover {
+  color: #0ea5e9;
+}
+
+/* BACKGROUND & TEXT COLOR PER ROUTE */
+.navbar-home {
+
+  color: white;
+}
+
+.navbar-live {
+ 
+ color: hwb(42 6% 37%);
+}
+
+.navbar-video {
+
+  color: hwb(42 6% 37%);
+}
+
+.navbar-about {
+ 
+  color: hwb(42 6% 37%);
+}
+
+.navbar-music {
+
+ color: hwb(42 6% 37%);
+}
+
+.navbar-podcast {
+ 
+  color: hwb(42 6% 37%);
+}
+
+.navbar-contact {
+ color: hwb(42 6% 37%);
+  
+}
+
+.navbar-default {
+  background-color: #111827;
+  color: white;
+}
